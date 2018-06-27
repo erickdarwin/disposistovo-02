@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pe.edu.erickdqs.controlbt.UserInterfaz">
+
+    <TextView
+        android:id="@+id/IdControl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Control Puertas"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/IdEncender"
+        android:layout_width="match_parent"
+        android:layout_height="245dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/IdControl"
+        android:background="@mipmap/abrir"
+        android:text="Abrir" />
+
+    <Button
+        android:id="@+id/IdApagar"
+        android:layout_width="match_parent"
+        android:layout_height="245dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@mipmap/cerrar"
+        android:text="Cerrar" />
+
+    <!--<TextView
+        android:id="@+id/IdbufferIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/IdDesconectar"
+        android:layout_alignStart="@+id/IdControl"
+        android:layout_marginBottom="61dp"
+        android:text="Dato:"
+        android:textAlignment="textStart"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/IdDesconectar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/IdApagar"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="28dp"
+        android:text="Desconectar" />
+        -->
+</RelativeLayout>
